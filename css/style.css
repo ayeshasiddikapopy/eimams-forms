@@ -1,0 +1,194 @@
+/*======== defaults starts =========*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+img {
+    vertical-align: middle;
+}
+ul, li {
+    list-style: none;
+}
+.container {
+    max-width: 1290px;
+    margin: 0 auto;
+}
+/*======== defaults end =========*/
+/* ======= common styles starts here ============*/
+:root{
+    --primary: #162C53;
+    --secondary: #CABB78;
+    --white: #FFFFFF;
+    --ash: #8C92A4;
+    --ash-light: #E1E1E1;
+    --regular: 400;
+    --medium: 500;
+    --semibold:600;
+    --bold:700;
+    --inter: 'Inter', sans-serif ;
+    --philospher: 'Philosopher', sans-serif;
+    --heading: 64px ;
+    --subheading:36px ;
+    --parafont: 16px;
+    --subpara: 18px;
+    --paraitem: 20px;
+    --paraheading: 28px;
+}
+
+.section__heading {
+    color: var(--primary);
+    font-size: var(--heading);
+    font-weight: var(--bold);
+    font-family: var(--philospher);
+    text-transform: capitalize;
+}
+.section__subheading {
+    color: var(--primary);
+    font-size: var(--subheading);
+    font-weight: var(--bold);
+    font-family: var(--philospher);
+    text-transform: capitalize;
+}
+.from__para {
+    color: var(--ash);
+    font-size: var(--subpara);
+    font-weight: var(--normal);
+    font-family: var(--inter);
+    text-transform: capitalize;
+}
+.from__inner {
+    color: var(--ash-light);
+    font-size: var(--parafont);
+    font-weight: var(--normal);
+    font-family: var(--inter);
+}
+.primary__button {
+    color: var(--secondary);
+    font-size: var(--parafont);
+    font-weight: var(--normal);
+    font-family: var(--inter);
+    padding: 18px 30px;
+    background: var(--primary);
+    border: 1px solid #E1E1E1;
+    border-radius: 24px;
+    text-transform: capitalize;
+}
+.primary__button:hover {
+    background: var(--white);
+    color: var(--primary);
+    transition: 0.3s ease-in-out;
+}
+::placeholder {
+    color: var(--ash-light);
+    font-size: var(--parafont);
+    font-weight: var(--normal);
+    font-family: var(--inter);
+  }
+
+/* ======= common styles ends here ============*/
+
+/* regitration starts here */
+.form__heading {
+    padding: 30px 0;
+}
+.form__subheading {
+    padding: 30px 0;
+}
+.req {
+    color: #ff0000;
+}
+.form__input, .form__input--select select  {
+    width: 100%;
+    padding: 18px 24px;
+    margin: 30px 0;
+    border-radius: 9px;
+    border: 1px solid #E1E1E1;
+}
+.form__input input {
+    color: var(--primary);
+    font-size: var(--parafont);
+    font-weight: var(--normal);
+    font-family: var(--inter);
+    border: none;
+}
+
+.form__contents {
+    padding: 15px 0;
+}
+.from__width {
+    width: 48%;
+}
+.form__items {
+    display: flex;
+    justify-content: space-between;
+}
+.form__input-textarea {
+    padding: 30px 0;
+}
+
+.form__input-textarea textarea{
+    width: 100%;
+    border: 1px solid #E1E1E1;
+    padding: 10px;
+    color: var(--primary);
+    font-size: var(--parafont);
+    font-weight: var(--normal);
+    font-family: var(--inter);
+}
+.form__input--lowerFeild {
+    background: #d9edf7 ;
+    width: 100%;
+    padding: 18px 24px;
+    border-radius: 9px;
+    margin-bottom:30px ;
+}
+.from__reference {
+    background: var(--ash);
+    color: #ff0000;
+}
+.from__reference input{
+    border: none;
+    background: var(--ash);
+}
+.form__input--select select option {
+    background: #E1E1E1;
+}
+.form__radio {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.form__radioItems {
+    width: 22%;
+    padding: 30px 0;
+}
+.form__radio input {
+    margin: 0 10px;
+}
+.radio__align {
+    align-items: center;
+}
+.salary__forms {
+    display: flex;
+    justify-content: space-between;
+}
+.salary__width {
+    width: 30%;
+}
+.form__button {
+    display: flex;
+    justify-content: center;
+}
+.button__Items {
+    padding: 20px;
+    background: #fff;
+}
+
+
+/* regitration ends here */
