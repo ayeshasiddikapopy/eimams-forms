@@ -89,7 +89,7 @@ ul, li {
     font-size: var(--parafont);
     font-weight: var(--normal);
     font-family: var(--inter);
-  }
+}
 
 /* ======= common styles ends here ============*/
 
@@ -141,6 +141,12 @@ ul, li {
     font-weight: var(--normal);
     font-family: var(--inter);
 }
+.accomodation__textarea textarea, .message_Textarea textarea {
+    height: 80px;
+}
+.accomodation__textarea{
+    padding: 15px 0;
+}
 .form__input--lowerFeild {
     background: #d9edf7 ;
     width: 100%;
@@ -162,7 +168,7 @@ ul, li {
 .form__radio {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 30px 0;
 }
 .form__radioItems {
     width: 22%;
