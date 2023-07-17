@@ -1,0 +1,138 @@
+@media (min-width: 320px) and (max-width: 576px) {
+    .section__heading{
+        font-size: var(--subheading);
+    }
+    .section__subheading {
+        font-size: var(--paraitem);
+    }
+    .from__para {
+        font-size: 12px;
+    }
+    .form__input input {
+        font-size: 12px;
+    }
+    .from__width {
+        width: 100%;
+    }
+    .form__items {
+        flex-direction: column;
+    }
+    .form__contents {
+        padding: 10px 0;
+    }
+    .form__input-textarea {
+        padding: 15px 0;
+    }
+    .form__radioItems {
+        width: 24%;
+        padding: 10px 0;
+    }
+    .form__radio {
+        padding: 15px 0;
+    }
+    textarea {
+        height: 80px;
+    }
+    .mobile__spacing {
+        padding: 10px;
+    }
+    .form__radio input {
+        margin: 0 5px;
+    }
+    ::placeholder {
+        font-size: 10px;
+    }
+    .primary__button {
+        font-size: 12px;
+    }
+    .form__heading , .form__subheading{
+        padding: 15px 0;
+    } 
+    .form__input, .form__input--select select {
+        margin: 10px 0;
+    }
+    .terms__text {
+        font-size: 12px;
+    } 
+    .check__mark {
+        padding: 5px 0;
+    }
+    .check___contents {
+        flex-direction: column;
+    }
+    .check__spacing {
+        padding: 0;
+    }
+
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .section__heading{
+        font-size: var(--subheading);
+    }
+    .section__subheading {
+        font-size: var(--paraitem);
+    }
+    .from__para {
+        font-size: 12px;
+    }
+    .form__input input {
+        font-size: 12px;
+    }
+    .from__width {
+        width: 100%;
+    }
+    .form__items {
+        flex-direction: column;
+    }
+    .form__contents {
+        padding: 10px 0;
+    }
+    .form__input-textarea {
+        padding: 15px 0;
+    }
+    .form__radioItems {
+        width: 24%;
+        padding: 10px 0;
+    }
+    .form__radio {
+        padding: 15px 0;
+    }
+    textarea {
+        height: 80px;
+    }
+    .mobile__spacing {
+        padding: 10px;
+    }
+    .form__radio input {
+        margin: 0 5px;
+    }
+    ::placeholder {
+        font-size: 10px;
+    }
+    .primary__button {
+        font-size: 12px;
+    }
+    .form__heading , .form__subheading{
+        padding: 15px 0;
+    } 
+    .form__input, .form__input--select select {
+        margin: 10px 0;
+    }
+    .terms__text {
+        font-size: 12px;
+    } 
+    .check__mark {
+        padding: 5px 0;
+    }
+    .check___contents {
+        flex-direction: column;
+    }
+    .check__spacing {
+        padding: 5px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .mobile__spacing {
+        padding:0 20px ;
+    }
+}

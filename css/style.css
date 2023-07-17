@@ -94,10 +94,7 @@ ul, li {
 /* ======= common styles ends here ============*/
 
 /* regitration starts here */
-.form__heading {
-    padding: 30px 0;
-}
-.form__subheading {
+.form__heading , .form__subheading{
     padding: 30px 0;
 }
 .req {
@@ -127,6 +124,7 @@ ul, li {
 .form__items {
     display: flex;
     justify-content: space-between;
+  
 }
 .form__input-textarea {
     padding: 30px 0;
