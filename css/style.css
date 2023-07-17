@@ -131,7 +131,6 @@ ul, li {
 .form__input-textarea {
     padding: 30px 0;
 }
-
 .form__input-textarea textarea{
     width: 100%;
     border: 1px solid #E1E1E1;
@@ -194,6 +193,27 @@ ul, li {
 .button__Items {
     padding: 20px;
     background: #fff;
+}
+.terms__conditionInner {
+    background: var(--ash-light);
+}
+.terms__text {
+    display: inline-block;
+    color: var(--primary);
+    font-size: var(--parafont);
+    font-weight: var(--normal);
+    font-family: var(--inter);
+}
+.check__mark {
+    padding: 10px 0;
+}
+
+.check___contents {
+    display: flex;
+    align-items: center;
+}
+.check__spacing {
+    padding: 20px 20px 20px 0;
 }
 
 
