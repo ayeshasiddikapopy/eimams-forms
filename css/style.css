@@ -216,3 +216,19 @@ ul, li {
 
 
 /* regitration ends here */
+/* login */
+.login {
+display: flex;
+}
+.login__signup {
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+}
+.login__contents button {
+    display: flex;
+    margin: 0 auto;
+}
+.text-center {
+    text-align: center;
+}
